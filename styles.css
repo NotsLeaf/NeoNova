@@ -111,3 +111,49 @@ header{
     font-size: 1rem;
     font-family: var(--secondary-font);
 }
+
+.header__links{
+    display: none;
+}
+
+.header__links__link{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-family: var(--secondary-font);
+    font-size: 2.25rem;
+    margin-right: 2em;
+}
+
+.header__links{
+    padding-left: 10%;
+}
+
+@media screen and (min-width: 1650px){
+    .container{
+        display: none;
+    }
+
+    .header__links{
+        display: flex;
+    }
+
+    .Home__image{
+        width: 30%;
+        max-width: 30%;
+        margin: 7em 6% 0 0;
+    }
+
+    .Home__content__Title{
+        font-size: 2.25rem;
+        margin-left: 8.5%;
+    }
+    .Home__content_par{
+        font-size: 1.5rem;
+        margin-left: 13.5%;
+    }
+
+    .Home{
+        flex-direction: row-reverse;
+    }
+    
+}

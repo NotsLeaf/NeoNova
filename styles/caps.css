@@ -42,3 +42,24 @@
     line-height: 1.2;
     font-weight: 400;
 }
+
+@media screen and (min-width: 1650px){
+    .Caps__back-button__button{
+        display: none;
+    }
+
+    .Caps__Number{
+        margin: 2em 0 0 9.5vw;
+        font-size: 2rem;
+    }
+
+    .Caps__Title{
+        font-size: 4em;
+    }
+
+    .Cap__Text{
+        margin: 0 0 0 10em;
+        width: 80%;
+        font-size: 1.4em;
+    }
+}

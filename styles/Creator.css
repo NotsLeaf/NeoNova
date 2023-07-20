@@ -15,7 +15,6 @@
     font-family: var(--primary-font);
     margin: 2em;
     font-size: 1rem;
-
 }
 
 .Contact{
@@ -34,4 +33,28 @@
     text-align: center;
     width: 50%;
     margin: 0.5em;
+}
+
+@media screen and (min-width: 1650px){
+    .Content__creator__h2{
+        margin: 2em 0 0 6em;
+    }
+
+    .Content__creator__h3{
+        margin: 1em 0 0 12em;
+    }
+
+    .Contact{
+        align-items:flex-start;
+        margin: 1em 0 0 11.5em;
+    }
+
+    .Contact__link{
+        width: 20%;
+    }
+    
+    .Contact__link:hover{
+        background-color: var(--primary-color);
+        color: var(--bg-color);
+    }
 }

@@ -1,0 +1,6 @@
+.WORLD_H2{
+    color: var(--white-color);
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+    margin: 1em;
+}

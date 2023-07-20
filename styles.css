@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+@import url(styles/CapListPage.css);
+@import url(styles/caps.css);
+@import url(styles/Creator.css);
+@import url(styles/world.css);
+
+:root{
+    --primary-color: #00FF9F;
+    --bg-color: #171719;
+    --white-color: white;
+
+    --primary-font: 'Poppins', sans-serif;
+    --secondary-font: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 28px;
+    align-items: center;
+}
+
+.NeoNova__Title{
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-size: 2.25rem;
+}
+
+.menu-list{
+    display: none;
+    position: absolute;
+    top: 10%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.container__menu{
+    display: none;
+}
+
+.container__menu:checked ~ .menu-list{
+    display: block;
+    border-right: 2px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.lista-menu__item {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    padding: 1em;
+    background-color: var(--bg-color);
+    top: 100%;
+    width: 40vw;
+}
+
+.menu-list__links{
+    text-decoration: none;
+    font-family: var(--poppins-font);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--azul);
+}
+
+.header__menu-hamburguer{
+    width: 24px;
+    height: 24px;
+    background-image: url("images/HamburguerMenu.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1em 1em;
+    display: inline-block;
+}
+
+.NeoNova__Title{
+    padding-right: 5%;
+}
+
+.Home{
+    display: flex;
+    flex-direction: column;
+}
+
+.Home__image{
+    width: 80%;
+    align-content: center;
+    margin-left: 2.2em;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.Home__content__Title{
+    color: var(--primary-color);
+    padding: 1em 0 1em 9%;
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
+
+.Home__content_par{
+    padding: 0 2em;
+    color: var(--white-color);
+    font-size: 1rem;
+    font-family: var(--secondary-font);
+}

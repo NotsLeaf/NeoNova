@@ -1,0 +1,44 @@
+.Caps__Content{
+    padding: 0 0 0 2em;
+    display: flex;
+    flex-direction: column;
+}
+.Caps__back-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Caps__back-button__button{
+    text-decoration: none;
+    color: var(--white-color);
+    font-family: var(--secondary-font);
+    font-size: 1.25rem;
+    background-color: var(--primary-color);
+    padding: 0.5em;
+    border-radius: 15px 0 15px 0px;
+}
+
+.Caps__Number{
+    color: var(--white-color);
+    font-family: var(--secondary-font);
+    font-size: 1.5rem;
+    text-align: end;
+    margin-top: 0.5em;
+    margin-right: 10%;
+}
+
+.Caps__Title{
+    color: var(--white-color);
+    font-family: var(--secondary-font);
+    font-size: 2em;
+    margin: 0.7em 0;
+    text-align: center;
+}
+
+.Cap__Text{
+    color: var(--white-color);
+    font-family: var(--primary-font);
+    margin-right: 0.7em;
+    line-height: 1.2;
+    font-weight: 400;
+}
